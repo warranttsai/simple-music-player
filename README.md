@@ -13,18 +13,20 @@ To view the music player with the lyric placeholder, simply open the "index.html
 
 # file structure
 
+```
 simple-music-player
-│ index.html
-│ .gitignore
-│ README.md
+│   index.html
+│   .gitignore
+│   README.md
 │
 ├── assets
-│ │ favicon.ico
-│ │ sunrise-groove-top-flow-production.mp3
+│   │   favicon.ico
+│   │   sunrise-groove-top-flow-production.mp3
 │
 ├── css
-│ │ global.css
+│   │   global.css
 │
 └── js
-│ data.js
-│ index.js
+    │   data.js
+    │   index.js
+```
