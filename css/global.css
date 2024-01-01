@@ -30,4 +30,5 @@ audio {
 }
 .container li.active {
   transform: scale(1.2);
+  color: #fff;
 }
