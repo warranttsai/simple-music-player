@@ -87,3 +87,5 @@ function setOffset() {
   let li = doms.ul.children[index];
   if (li) li.classList.add(`active`);
 }
+
+doms.audio.addEventListener("timeupdate", setOffset);
