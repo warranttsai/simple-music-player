@@ -45,8 +45,11 @@ const lrcData = parseLrc();
  */
 function findIndex() {
   const curTime = doms.audio.currentTime;
+  let musicEnd = true;
   for (let i = 0; i < lrcData.length; i++)
     if (curTime < lrcData[i].time) return i - 1;
+
+  if (musicEnd) return lrcData.length - 1;
 }
 
 /**
@@ -72,7 +75,6 @@ const maxOffset = doms.ul.clientHeight - containerHeight;
  */
 function setOffset() {
   const index = findIndex();
-
   // set offset effect to the <ul>
   let offset = liHeight * index + liHeight / 2 - containerHeight / 2;
   if (offset < 0) offset = 0;
