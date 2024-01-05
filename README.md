@@ -4,8 +4,8 @@ This mini project involves creating a basic music player with a lyric rolling ef
 
 # resource
 
-Free MP3: https://pixabay.com/
-Favicon: https://favicon.io/
+- Free MP3: https://pixabay.com/
+- Favicon: https://favicon.io/
 
 # how to run the project
 
