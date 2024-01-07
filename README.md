@@ -6,6 +6,7 @@ This mini project involves creating a basic music player with a lyric rolling ef
 
 Free MP3: https://pixabay.com/
 Favicon: https://favicon.io/
+Lorem Ipsum Generator: https://www.lipsum.com/
 
 # how to run the project
 
